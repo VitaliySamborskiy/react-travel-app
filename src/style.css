@@ -631,6 +631,13 @@ select {
   opacity: 0.5;
 }
 
+.app__wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* animations */
 
 @keyframes rotate {
